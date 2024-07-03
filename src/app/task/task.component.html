@@ -1,7 +1,9 @@
 <p>task works!</p>
 
-<div class="grid" *ngFor="let task of data">
-  <card [task]="task"></card>
+<div class="grid">
+  <div *ngFor="let task of data">
+    <card [task]="task"></card>
+  </div>
 </div>
 
 <!-- <div>
